@@ -1,0 +1,83 @@
+.container{
+	background-color: antiquewhite;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding:1%;
+	width: 60%;
+	min-width: 300px;
+	height: auto;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+form{
+	font-size:2.9vh;
+	padding: 1%;
+	width: 90%;
+	margin: auto;
+}
+
+.input{
+	width: 100%;
+	padding:1%;
+	font-size: 2.9vh;
+	font-family: monospace;
+	border: solid 1px lightgray;
+	border-radius: 5px;
+}
+
+.input:focus{
+	outline: none;
+}
+
+.button{
+	padding: 0.7%;
+	font-size: 2.9vh;
+	font-family: monospace;
+	border: none;
+	background-color: forestgreen;
+	border-radius: 7px;
+	color: white;
+	cursor: pointer;
+}
+
+span{
+	color: red;
+	font-weight: bolder;
+	
+}
+
+.div1{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.icon{
+	position: absolute;
+	top: 7%;
+	right:0;
+	background: url('img.png');
+	background-size: 4.5vh 4.5vh;
+	width: 4.5vh;
+	height: 4.5vh;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.hide{
+	background: url('img2.png');
+	position: absolute;
+	top: 7%;
+	right: 0;
+	background-size:4.5vh 4.5vh;
+	width: 4.5vh;
+	height: 4.5vh;
+    z-index: 1;
+    cursor: pointer;
+}
+
